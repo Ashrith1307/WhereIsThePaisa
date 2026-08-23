@@ -48,7 +48,7 @@ def evaluate_with_gemini(candidate_row: pd.Series) -> dict:
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash",  # Updated to universally compatible production model
+            model="gemini-3.6-flash",  # Updated to current active model endpoint
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
