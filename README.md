@@ -2,7 +2,7 @@
 
 **Autonomous Financial Reconciliation & Exception Management Engine**  
 
-> **⚠️ Important Note for Judges & Evaluators:**
+> **⚠️ Important Note for Evaluators & Contributors:**
 > For security best practices, the actual `.env` file containing the secret API key is excluded from version control via `.gitignore`. 
 > * **To test the live AI pipeline:** Copy the provided `.env.example` file, rename it to `.env`, and add your own free Google AI Studio API key.
 > * **To view the dashboard instantly:** We have pre-generated and committed the output ledger and exception CSVs in the `output/` folder. You can launch the Streamlit frontend immediately without needing an active API key!
