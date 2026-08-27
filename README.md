@@ -35,7 +35,7 @@ Traditional reconciliation systems either break under minor string discrepancies
 ---
 
 ## 🗂️ Project Structure
-```text
+
 WhereIsThePaisa/
 ├── data/                       # Synthetic transaction logs (Orders, PG, Bank)
 ├── output/                     # Generated reconciliation ledgers & exception CSVs
