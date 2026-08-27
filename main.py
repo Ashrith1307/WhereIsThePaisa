@@ -8,7 +8,7 @@ from src.data_generator import generate_synthetic_data
 from src.deterministic import run_deterministic_stage
 from src.ingestion import load_and_normalize_data
 
-# Load environment variables (such as GEMINI_API_KEY from .env file)
+# Load environment variables (such as GEMINI_API_KEY from .env file
 load_dotenv()
 
 

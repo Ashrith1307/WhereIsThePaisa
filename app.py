@@ -8,14 +8,13 @@ import streamlit as st
 
 load_dotenv()
 
-# Page Configuration
+
 st.set_page_config(
     page_title="WhereIsThePaisa | AI Financial Controller",
     page_icon="💸",
     layout="wide",
 )
 
-# Custom CSS Styling for a polished enterprise look
 st.markdown(
     """
     <style>
@@ -33,7 +32,7 @@ st.markdown(
 st.markdown("---")
 
 
-# Load Data Function
+
 @st.cache_data
 def load_data():
   ledger_path = "output/reconciled_ledger.csv"
