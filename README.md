@@ -2,6 +2,10 @@
 
 **Autonomous Financial Reconciliation & Exception Management Engine**  
 
+> **⚠️ Important Note for Judges & Evaluators:**
+> For security best practices, the actual `.env` file containing the secret API key is excluded from version control via `.gitignore`. 
+> * **To test the live AI pipeline:** Copy the provided `.env.example` file, rename it to `.env`, and add your own free Google AI Studio API key.
+> * **To view the dashboard instantly:** We have pre-generated and committed the output ledger and exception CSVs in the `output/` folder. You can launch the Streamlit frontend immediately without needing an active API key!
 
 ---
 
@@ -47,3 +51,16 @@ WhereIsThePaisa/
 ├── main.py                     # CLI pipeline orchestrator
 ├── requirements.txt            # Python dependencies
 └── README.md                   # System documentation
+
+## 🚀 Copy-Paste Run Commands
+
+Open your terminal in the project root folder and execute the following commands:
+
+### Step 1: Install Dependencies
+pip install -r requirements.txt
+
+### Step 2: Run the Engine
+python main.py
+
+### Step 1: Start FrontEnd 
+streamlit run app.py
