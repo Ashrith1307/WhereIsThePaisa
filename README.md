@@ -35,7 +35,7 @@ Traditional reconciliation systems either break under minor string discrepancies
 ---
 
 ## 🗂️ Project Structure
-
+~~~
 WhereIsThePaisa/
 ├── data/                       # Synthetic transaction logs (Orders, PG, Bank)
 ├── output/                     # Generated reconciliation ledgers & exception CSVs
@@ -51,11 +51,11 @@ WhereIsThePaisa/
 ├── main.py                     # CLI pipeline orchestrator
 ├── requirements.txt            # Python dependencies
 └── README.md                   # System documentation
-
+~~~
 ## 🚀 Copy-Paste Run Commands
 
 Open your terminal in the project root folder and execute the following commands:
-
+```bash
 ### Step 1: Install Dependencies
 pip install -r requirements.txt
 
